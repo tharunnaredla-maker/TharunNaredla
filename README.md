@@ -1,4 +1,4 @@
-# TharunNaredla.github.io[tharun_portfolio.html](https://github.com/user-attachments/files/22580736/tharun_portfolio.html)
+# TharunNaredla [tharun_portfolio.html](https://github.com/user-attachments/files/22580736/tharun_portfolio.html)
 <!DOCTYPE html>
 <html lang="en">
 <head>
