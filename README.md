@@ -64,7 +64,7 @@
     </div>
     <div class="project">
       <h3>Consultant Designer</h3>
-      <p>Provided design consultancy for Intellobots, Deeploop Technologies, and other startups in robotics and consumer products.</p>
+      <p>Provided design consultancy for Intellobots, Deeploop Technologies,Trackit IOT and other startups in robotics and consumer products.</p>
     </div>
   </section>
 
@@ -87,7 +87,7 @@
   <section id="contact">
     <h2>Contact</h2>
     <p>Phone: <a href="tel:+918897234230">+91 8897234230</a></p>
-    <p>Email: <a href="mailto:tharun@example.com">tharun@example.com</a></p>
+    <p>Email: <a href="mailto:naredlatharun@gmail.com">naredlatharun@gmail.com</a></p>
     <p>LinkedIn: <a href="https://www.linkedin.com/in/tharun-naredla" target="_blank">linkedin.com/in/tharun-naredla</a></p>
   </section>
 
