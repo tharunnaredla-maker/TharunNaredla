@@ -64,7 +64,7 @@
     </div>
     <div class="project">
       <h3>Consultant Designer</h3>
-      <p>Provided design consultancy for Intellobots, Deeploop Technologies,Trackit IOT and other startups in robotics and consumer products.</p>
+      <p>Provided design consultancy for Intellobots, Deeploop Technologies,TrakItNow and other startups in robotics and consumer products.</p>
     </div>
   </section>
 
