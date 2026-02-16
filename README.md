@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -100,6 +101,29 @@
       transform: translateY(-5px);
     }
 
+    /* Gallery */
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1rem;
+      margin-top: 2rem;
+    }
+
+    .gallery img {
+      width: 100%;
+      height: 220px;
+      object-fit: cover;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      cursor: pointer;
+    }
+
+    .gallery img:hover {
+      transform: scale(1.05);
+      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.25);
+    }
+
     .contact {
       text-align: center;
     }
@@ -137,18 +161,17 @@
       <a href="#about">About</a>
       <a href="#skills">Skills</a>
       <a href="#projects">Projects</a>
+      <a href="#gallery">Gallery</a>
       <a href="#contact">Contact</a>
     </nav>
   </header>
-
-
 
   <section id="about">
     <h2>About Me</h2>
     <p>Experienced Product Development and Design Engineer with a demonstrated history of working in the consumer
       services industry. Skilled in Fusion 360, SolidWorks, AutoCAD, and Solid Edge. Extensive experience in 3D printing
       and prototyping. Strong engineering professional with a B.Tech in Mechanical Engineering from Sri Vasavi
-      Engineering College, Pedatadepalli, Tadepalligudem (CC-A8). Currently pursuing an M.Tech in Design Engineering
+      Engineering College, Pedatadepalligudem (CC-A8). Currently pursuing an M.Tech in Design Engineering
       from BITS Pilani.</p>
     <p>With over six years of experience, I lead the Mechanical and Hardware team in product development and design,
       delivering innovative solutions across industries.</p>
@@ -183,17 +206,30 @@
     <div class="project">
       <h3>Neerovel</h3>
       <p>Designed and Developed water level management and water quality measuring systems capable of providing instant
-        results completely wireless .</p>
+        results completely wireless.</p>
     </div>
     <div class="project">
       <h3>Neogreens</h3>
       <p>"Neogreens" is a brand that sells plant-based nutritional products to improve lifestyle, mental clarity, and
-        gut health. . "https://neogreens.com/"</p>
+        gut health. <a href="https://neogreens.com/" target="_blank">Visit</a></p>
     </div>
     <div class="project">
       <h3>Consultant Designer</h3>
-      <p>Provided design consultancy for Intellobots, Deeploop Technologies,TrakItNow and other startups in robotics and
-        consumer products for Designing, prototyping, production and manufacturing .</p>
+      <p>Provided design consultancy for Intellobots, Deeploop Technologies, TrakItNow and other startups in robotics and
+        consumer products for Designing, prototyping, production and manufacturing.</p>
+    </div>
+  </section>
+
+  <!-- Gallery Section -->
+  <section id="gallery">
+    <h2>Photo Gallery</h2>
+    <div class="gallery">
+      <img src="C:\Users\nthar\Downloads\WhatsApp Image 2025-09-23 at 11.25.54 PM.jpeg" alt="Project 1" />
+      <img src="images/photo2.jpg" alt="Project 2" />
+      <img src="images/photo3.jpg" alt="Workshop" />
+      <img src="images/photo4.jpg" alt="Achievement" />
+      <img src="images/photo5.jpg" alt="Team Work" />
+      <img src="images/photo6.jpg" alt="Prototyping" />
     </div>
   </section>
 
@@ -219,19 +255,12 @@
     <h2>Contact</h2>
     <p>Phone: <a href="tel:+918897234230">+91 8897234230</a></p>
     <p>Email: <a href="mailto:naredlatharun@gmail.com">naredlatharun@gmail.com</a></p>
-    <p>LinkedIn: <a href="https://www.linkedin.com/in/tharun-naredla" target="_blank">linkedin.com/in/tharun-naredla</a>
-    </p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/tharun-naredla" target="_blank">linkedin.com/in/tharun-naredla</a></p>
   </section>
 
   <footer>
     &copy; 2025 Tharun Naredla. All rights reserved.
   </footer>
 
-
-
-
-  </div>
-
 </body>
-
 </html>
